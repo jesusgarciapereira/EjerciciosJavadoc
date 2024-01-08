@@ -16,7 +16,7 @@ public class Aleatorios {
 	 * 
 	 * @param cantidad Cantidad de números generados que se mostrarán
 	 */
-	public static void numerosAletorios(int cantidad) {
+	public static void numerosAleatorios(int cantidad) {
 		double aleatorio;
 
 		for (int i = 1; i <= cantidad; i++) {

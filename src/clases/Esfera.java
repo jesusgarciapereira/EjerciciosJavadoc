@@ -1,8 +1,8 @@
 package clases;
 
 /**
- * Clase que contendrá los atributos, constructores y funciones referentes a una
- * esfera
+ * Clase que representa una esfera con sus atributos, constructores y funciones
+ * asociadas
  * 
  * @author jgarcia
  * @version 1.0
@@ -21,7 +21,7 @@ public class Esfera {
 	}
 
 	/**
-	 * Construcctor con el atributo como parámetro
+	 * Constructor que toma el radio como parámetro
 	 * 
 	 * @param radio Longitud del radio de la esfera
 	 */
@@ -31,8 +31,8 @@ public class Esfera {
 	}
 
 	/**
-	 * Función para calcular la superficie de la esfera mediante su correspondiente
-	 * fórmula
+	 * Función para calcular la superficie de la esfera utilizando la fórmula
+	 * correspondiente
 	 * 
 	 * @return Valor de la superficie de la esfera
 	 */
@@ -42,8 +42,8 @@ public class Esfera {
 	}
 
 	/**
-	 * Función para calcular volumen de la esfera mediante su correspondiente
-	 * fórmula
+	 * Función para calcular el volumen de la esfera utilizando la fórmula
+	 * correspondiente
 	 * 
 	 * @return Valor del volumen de la esfera
 	 */
