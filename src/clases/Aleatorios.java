@@ -3,7 +3,7 @@ package clases;
 import java.util.Random;
 
 /**
- * Clase en la que se definen las funciones para generar números aleatorios
+ * Clase que proporciona métodos para generar números aleatorios
  * 
  * @author jgarcia
  * @version 1.0
@@ -11,9 +11,10 @@ import java.util.Random;
 public class Aleatorios {
 
 	/**
-	 * Función que muestra tantos números aleatorios como se indique
+	 * Función que genera y muestra la cantidad especificada de números decimales aleatorios 
+	 * entre 0 (inclusive) y 1 (exclusive) 
 	 * 
-	 * @param cantidad Cantidad de números que se mostrarán
+	 * @param cantidad Cantidad de números generados que se mostrarán
 	 */
 	public static void numerosAletorios(int cantidad) {
 		double aleatorio;
@@ -25,10 +26,10 @@ public class Aleatorios {
 	}
 
 	/**
-	 * Función que muestra tantos números aleatorios como se indique con un límite
-	 * máximo
+	 * Función que genera y muestra la cantidad especificada de números enteros aleatorios entre 0
+	 * (inclusive) y el valor introducido como parámetro (exclusive) 
 	 * 
-	 * @param cantidad Cantidad de números que se mostrarán
+	 * @param cantidad Cantidad de números generados que se mostrarán
 	 * @param max      Valor máximo que tomarán los números generados aleatoriamente
 	 */
 	public static void numerosAleatorios(int cantidad, int max) {
@@ -41,10 +42,11 @@ public class Aleatorios {
 	}
 
 	/**
-	 * Función que muestra tantos números aleatorios como se indique con un límite
-	 * mínimo y un límite máximo
+	 * Función que genera y muestra la cantidad especificada de números enteros aleatorios entre los
+	 * valores mínimo y máximo (ambos inclusive) introducidos como parámetro 
 	 * 
-	 * @param cantidad Cantidad de números que se mostrarán
+	 * 
+	 * @param cantidad Cantidad de números generados que se mostrarán
 	 * @param minimo   Valor mínimo que tomarán los números generados aleatoriamente
 	 * @param maximo   Valor máximo que tomarán los números generados aleatoriamente
 	 */
