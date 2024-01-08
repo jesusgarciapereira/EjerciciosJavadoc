@@ -13,25 +13,25 @@ public class Tesoro {
 	public static final int TAM_TABLERO = 5;
 
 	/**
-	 * Valor de la cordenada x de la posición del tesoro
+	 * Valor de la cordenada 'x' de la posición del tesoro
 	 */
 	static int xTesoro;
 	/**
-	 * Valor de la cordenada y de la posición del tesoro
+	 * Valor de la cordenada 'y' de la posición del tesoro
 	 */
 	static int yTesoro;
 	/**
-	 * Valor de la cordenada x de la posición del jugador
+	 * Valor de la cordenada 'x' de la posición del jugador
 	 */
 	int xJugador = 1;
 	/**
-	 * Valor de la cordenada y de la posición del jugador
+	 * Valor de la cordenada 'y' de la posición del jugador
 	 */
 	int yJugador = 1;
 
 	/**
 	 * Función que genera la posición del tesoro asignando a los valores de sus
-	 * cordenadas x e y sendos números generados aleatoriamente entre el 1 y el
+	 * cordenadas 'x' e 'y' sendos números generados aleatoriamente entre el 1 y el
 	 * valor del tamaño del tablero (ambos inclusive)
 	 */
 	static void generaPosicionTesoro() {
@@ -71,8 +71,9 @@ public class Tesoro {
 	}
 
 	/**
-	 * Función para mover al jugador en la dirección especificada siempre y cuando
-	 * se introduzca el parámetro correcto y no se salga del tablero
+	 * Función para mover al jugador en la dirección especificada sumando o restando
+	 * 1 a una de sus cordenadas. Siempre y cuando se introduzca el parámetro
+	 * correcto y no se salga del tablero
 	 * 
 	 * @param movimiento Dirección del movimiento. Sólo posibles: "arriba", "abajo",
 	 *                   "izquierda" o "derecha"
