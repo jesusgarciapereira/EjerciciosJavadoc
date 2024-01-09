@@ -8,7 +8,7 @@ import java.util.Random;
 public class Tesoro {
 
 	/**
-	 * Tamaño del tablero
+	 * Tamannio del tablero
 	 */
 	public static final int TAM_TABLERO = 5;
 
@@ -30,9 +30,9 @@ public class Tesoro {
 	int yJugador = 1;
 
 	/**
-	 * Función que genera la posición del tesoro asignando a los valores de sus
-	 * cordenadas 'x' e 'y' sendos números generados aleatoriamente entre el 1 y el
-	 * valor del tamaño del tablero (ambos inclusive)
+	 * Funcion que genera la posicion del tesoro asignando a los valores de sus
+	 * cordenadas 'x' e 'y' sendos numeros generados aleatoriamente entre el 1 y el
+	 * valor del tamannio del tablero (ambos inclusive)
 	 */
 	static void generaPosicionTesoro() {
 		Random rand = new Random();

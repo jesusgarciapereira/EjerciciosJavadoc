@@ -89,7 +89,7 @@ public class Operaciones {
 	}
 
 	/**
-	 * Función para comparar ambos numeros y devolver el menor entre ellos
+	 * Funcion para comparar ambos numeros y devolver el menor entre ellos
 	 * 
 	 * @return Valor del numero menor
 	 */
