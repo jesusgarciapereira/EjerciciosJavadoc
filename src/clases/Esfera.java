@@ -14,14 +14,14 @@ public class Esfera {
 	double radio = 1.0;
 
 	/**
-	 * Construcctor sin parámetros
+	 * Construcctor sin parametros
 	 */
 	public Esfera() {
 		super();
 	}
 
 	/**
-	 * Constructor que toma el radio como parámetro
+	 * Constructor que toma el radio como parametro
 	 * 
 	 * @param radio Longitud del radio de la esfera
 	 */
@@ -31,7 +31,7 @@ public class Esfera {
 	}
 
 	/**
-	 * Función para calcular la superficie de la esfera utilizando la fórmula
+	 * Funcion para calcular la superficie de la esfera utilizando la formula
 	 * correspondiente
 	 * 
 	 * @return Valor de la superficie de la esfera
@@ -42,7 +42,7 @@ public class Esfera {
 	}
 
 	/**
-	 * Función para calcular el volumen de la esfera utilizando la fórmula
+	 * Funcion para calcular el volumen de la esfera utilizando la formula
 	 * correspondiente
 	 * 
 	 * @return Valor del volumen de la esfera

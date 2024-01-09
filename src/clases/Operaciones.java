@@ -1,8 +1,8 @@
 package clases;
 
 /**
- * Clase que proporciona métodos para realizar operaciones matemáticas con dos
- * números
+ * Clase que proporciona metodos para realizar operaciones matematicas con dos
+ * numeros
  * 
  * @author jgarcia
  * @version 1.0
@@ -10,26 +10,26 @@ package clases;
 public class Operaciones {
 
 	/**
-	 * Primer número utilizado en las operaciones
+	 * Primer numero utilizado en las operaciones
 	 */
 	double num1;
 	/**
-	 * Segundo número utilizado en las operaciones
+	 * Segundo numero utilizado en las operaciones
 	 */
 	double num2;
 
 	/**
-	 * Construcctor sin parámetros
+	 * Construcctor sin parametros
 	 */
 	public Operaciones() {
 
 	}
 
 	/**
-	 * Constructor que toma los dos números como parámetro
+	 * Constructor que toma los dos numeros como parametro
 	 * 
-	 * @param num1 Valor del primer número
-	 * @param num2 Valor del segundo número
+	 * @param num1 Valor del primer numero
+	 * @param num2 Valor del segundo numero
 	 */
 	public Operaciones(double num1, double num2) {
 		this.num1 = num1;
@@ -37,7 +37,7 @@ public class Operaciones {
 	}
 
 	/**
-	 * Función para calcular la suma de ambos números
+	 * Funcion para calcular la suma de ambos numeros
 	 * 
 	 * @return Resultado de la suma
 	 */
@@ -46,7 +46,7 @@ public class Operaciones {
 	}
 
 	/**
-	 * Función para calcular la resta de ambos números
+	 * Funcion para calcular la resta de ambos numeros
 	 * 
 	 * @return Resultado de la resta
 	 */
@@ -55,19 +55,19 @@ public class Operaciones {
 	}
 
 	/**
-	 * Función para calcular el producto de ambos números
+	 * Funcion para calcular el producto de ambos numeros
 	 * 
-	 * @return Resultado de la multiplicación
+	 * @return Resultado de la multiplicacion
 	 */
 	public double multiplicacion() {
 		return num1 * num2;
 	}
 
 	/**
-	 * Función para calcular la división entre ambos números, siempre que el segundo
-	 * número sea distinto de 0
+	 * Funcion para calcular la division entre ambos numeros, siempre que el segundo
+	 * numero sea distinto de 0
 	 * 
-	 * @return Resultado de la división, o 0 si el segundo número es 0
+	 * @return Resultado de la division, o 0 si el segundo numero es 0
 	 */
 
 	public double division() {
@@ -80,18 +80,18 @@ public class Operaciones {
 	}
 
 	/**
-	 * Función para comparar ambos números y devolver el mayor entre ellos
+	 * Funcion para comparar ambos numeros y devolver el mayor entre ellos
 	 * 
-	 * @return Valor del número mayor
+	 * @return Valor del numero mayor
 	 */
 	public double max() {
 		return num1 > num2 ? num1 : num2;
 	}
 
 	/**
-	 * Función para comparar ambos números y devolver el menor entre ellos
+	 * Función para comparar ambos numeros y devolver el menor entre ellos
 	 * 
-	 * @return Valor del número menor
+	 * @return Valor del numero menor
 	 */
 	public double min() {
 		return num1 < num2 ? num1 : num2;

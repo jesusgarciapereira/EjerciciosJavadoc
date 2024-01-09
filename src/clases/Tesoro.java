@@ -3,7 +3,7 @@ package clases;
 import java.util.Random;
 
 /**
- * Clase que representa un juego de búsqueda del tesoro
+ * Clase que representa un juego de busqueda del tesoro
  */
 public class Tesoro {
 
@@ -13,19 +13,19 @@ public class Tesoro {
 	public static final int TAM_TABLERO = 5;
 
 	/**
-	 * Valor de la cordenada 'x' de la posición del tesoro
+	 * Valor de la cordenada 'x' de la posicion del tesoro
 	 */
 	static int xTesoro;
 	/**
-	 * Valor de la cordenada 'y' de la posición del tesoro
+	 * Valor de la cordenada 'y' de la posicion del tesoro
 	 */
 	static int yTesoro;
 	/**
-	 * Valor de la cordenada 'x' de la posición del jugador
+	 * Valor de la cordenada 'x' de la posicion del jugador
 	 */
 	int xJugador = 1;
 	/**
-	 * Valor de la cordenada 'y' de la posición del jugador
+	 * Valor de la cordenada 'y' de la posicion del jugador
 	 */
 	int yJugador = 1;
 
@@ -41,7 +41,7 @@ public class Tesoro {
 	}
 
 	/**
-	 * Función para mostrar el tablero con la posición actual del jugador
+	 * Funcion para mostrar el tablero con la posicion actual del jugador
 	 */
 	void pintaTablero() {
 		// Imprimimos la primera línea de números
@@ -71,14 +71,14 @@ public class Tesoro {
 	}
 
 	/**
-	 * Función para mover al jugador en la dirección especificada sumando o restando
-	 * 1 a una de sus cordenadas. Siempre y cuando se introduzca el parámetro
+	 * Funcion para mover al jugador en la direccion especificada sumando o restando
+	 * 1 a una de sus cordenadas. Siempre y cuando se introduzca el parametro
 	 * correcto y no se salga del tablero
 	 * 
-	 * @param movimiento Dirección del movimiento. Sólo posibles: "arriba", "abajo",
+	 * @param movimiento Direccion del movimiento. Solo posibles: "arriba", "abajo",
 	 *                   "izquierda" o "derecha"
-	 * @return Código del resultado: 0 para movimiento exitoso, -1 para límite del
-	 *         tablero, -2 para dirección no válida
+	 * @return Codigo del resultado: 0 para movimiento exitoso, -1 para limite del
+	 *         tablero, -2 para direccion no valida
 	 */
 	int mueveJugador(String movimiento) {
 		int res = 0;
@@ -122,10 +122,10 @@ public class Tesoro {
 	}
 
 	/**
-	 * Función para comprobar si el jugador ha encontrado el tesoro
+	 * Funcion para comprobar si el jugador ha encontrado el tesoro
 	 * 
-	 * @return true, si las coordenadas de la posición del jugador coinciden con las
-	 *         de la posición del tesoro; false en caso contrario
+	 * @return true, si las coordenadas de la posicion del jugador coinciden con las
+	 *         de la posicion del tesoro; false en caso contrario
 	 */
 	boolean buscaTesoro() {
 		boolean res = false;
