@@ -3,7 +3,7 @@ package clases;
 import java.util.Random;
 
 /**
- * Clase que proporciona métodos para generar números aleatorios
+ * Clase que proporciona metodos para generar numeros aleatorios
  * 
  * @author jgarcia
  * @version 1.0
@@ -11,10 +11,10 @@ import java.util.Random;
 public class Aleatorios {
 
 	/**
-	 * Función que genera y muestra la cantidad especificada de números decimales aleatorios 
-	 * entre 0 (inclusive) y 1 (exclusive) 
+	 * Funcion que genera y muestra la cantidad especificada de numeros decimales
+	 * aleatorios entre 0 (inclusive) y 1 (exclusive)
 	 * 
-	 * @param cantidad Cantidad de números generados que se mostrarán
+	 * @param cantidad Cantidad de numeros generados que se mostraran
 	 */
 	public static void numerosAleatorios(int cantidad) {
 		double aleatorio;
@@ -26,11 +26,12 @@ public class Aleatorios {
 	}
 
 	/**
-	 * Función que genera y muestra la cantidad especificada de números enteros aleatorios entre 0
-	 * (inclusive) y el valor introducido como parámetro (exclusive) 
+	 * Funcion que genera y muestra la cantidad especificada de numeros enteros
+	 * aleatorios entre 0 (inclusive) y el valor introducido como parametro
+	 * (exclusive)
 	 * 
-	 * @param cantidad Cantidad de números generados que se mostrarán
-	 * @param max      Valor máximo que tomarán los números generados aleatoriamente
+	 * @param cantidad Cantidad de numeros generados que se mostraran
+	 * @param max      Valor maximo que tomaran los numeros generados aleatoriamente
 	 */
 	public static void numerosAleatorios(int cantidad, int max) {
 		int aleatorio;
@@ -42,13 +43,13 @@ public class Aleatorios {
 	}
 
 	/**
-	 * Función que genera y muestra la cantidad especificada de números enteros aleatorios entre los
-	 * valores mínimo y máximo (ambos inclusive) introducidos como parámetro 
+	 * Funcion que genera y muestra la cantidad especificada de numeros enteros
+	 * aleatorios entre los valores minimo y maximo (ambos inclusive) introducidos
+	 * como parametro
 	 * 
-	 * 
-	 * @param cantidad Cantidad de números generados que se mostrarán
-	 * @param minimo   Valor mínimo que tomarán los números generados aleatoriamente
-	 * @param maximo   Valor máximo que tomarán los números generados aleatoriamente
+	 * @param cantidad Cantidad de numeros generados que se mostraran
+	 * @param minimo   Valor minimo que tomaran los numeros generados aleatoriamente
+	 * @param maximo   Valor maximo que tomaran los numeros generados aleatoriamente
 	 */
 	public static void numerosAleatorios(int cantidad, int minimo, int maximo) {
 		int aleatorio;
